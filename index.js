@@ -1,7 +1,7 @@
 const { AnswerList } = require('telebot');
 const TeleBot = require('telebot');
 
-const TOKEN = "1398761437:AAFCBpr18jDj27n0vL_7lmEkBi8Q48uI7y0";
+const TOKEN = "Take token from BotFather";
 const bot = new TeleBot(TOKEN);
 
 const to = new Date('Sat Nov 07 2020 15:00:57 GMT+0500');
@@ -9,13 +9,13 @@ const until = new Date('Sat Nov 07 2020 15:40:57 GMT+0500');
 var tartib = 0;
 var usersId = [
     
+    // navbatchilar ro'yxati ketma ketlikda
+    {name:'Behruz', id:'533323195'},
+    {name:'Muhriddin', id:'6406841'},
+    {name:'Jsavohir', id:'46131565'},
     
-    {name:'Behruz', id:'535304195'},
-    {name:'Muhi', id:'644926841'},
-    {name:'Javohir', id:'461501565'},
-    
-    {name:'Mansur', id:'457649673'},
-    {name:'Mansur', id:'1368636500'},
+    {name:'sansur', id:'43649673'},
+    {name:'Mansaur', id:'136833400'},
     
     
 ];
